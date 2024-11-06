@@ -30,7 +30,11 @@ public class Ejemplo3 {
             System.out.printf("Estudiante aprobado con un "
                     + "promedio: %.2f\n", promedio);
         } else {
-            if ((promedio >= 5) && (promedio < 7.5)) {
+            if ((promedio >= 5) && (promedio < 7.5)) { //Ya que su valor 
+                                                       //booleano cambia y 
+                                                       //afecta el resultado 
+                                                       //ejecutando lo de la 
+                                                       //linea 34 y 35
                 System.out.printf("Estudiante en suspenso con un "
                         + "promedio: %.2f\n", promedio);
             } else {
