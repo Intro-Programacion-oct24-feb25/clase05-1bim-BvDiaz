@@ -27,10 +27,11 @@ public class Ejemplo6 {
         // A    3
         // 
         String inicial = ciudad.substring(0, 1); // se obtiene 
-        // el primer 
+        // el primer                    
         // caracter de la cadena
         // Si el valor de ciudad es 
         // "Loja" se obtiene "L"
+        //substring se usa para sacar caracteres especificos de una cadena 
 
         if ( inicial.equals("L") || inicial.equals("l")) {
             System.out.printf("%s\n", "acceso correcto");
